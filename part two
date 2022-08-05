@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<h1 id="changetext"> sarwan singh</h1>
+<button onclick="displayResult()">what sarwan is doing </button>
+
+<script>
+function displayResult() {
+  document.getElementById("changetext").innerHTML = "sarwan singh studying mobile application and devlopment";
+}
+</script>
+
+</body>
+</html>
