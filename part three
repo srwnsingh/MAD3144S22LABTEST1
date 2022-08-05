@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> Sarwan Singh Page </title>
+</head>
+<body>
+
+    
+
+   
+
+  <h3> sum number 1 to 100 with for loop</h3>  
+    <script>
+        function sum1(a,b){
+
+const start=a;
+const end=b;
+var current;
+var sum1=0;
+for( i=start;i<=end ;i++){
+    sum1+=i;
+    
+    
+
+}
+return sum1;
+
+}
+document.write("sum is ",sum1(1,100))
+    </script>
+    <h3> sum number 1 to 100 with while loop </h3> <script>
+
+        function sum(a,b){
+
+const start=a;
+const end=b;
+var current;
+var sum=0;
+let i=start;
+while (i<=end){
+    sum+=i;
+    i++;
+
+}
+return sum;
+}
+document.write("sum is ",sum(1,100));
+    </script>
+
+    </body>
+    </html>
